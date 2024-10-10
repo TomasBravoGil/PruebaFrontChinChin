@@ -38,3 +38,10 @@ body{
     text-decoration: none;
     color: black;
   }
+
+  .navbar .logoutButton{
+    border-radius: 15px;
+    font-size: 30px;
+    color: black;
+    border: none;
+  }

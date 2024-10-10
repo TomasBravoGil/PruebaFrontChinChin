@@ -66,6 +66,18 @@
     margin-bottom: 10px;
   }
 
+  .container .form .googleButton{
+    background-color: #ffffff;
+    border-color: #14C6A4;
+    border-radius: 50px;
+    font-size: 25px;
+    color: #14C6A4;
+    font-weight: bold;
+    height: 50px;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .container .form .link{
     text-decoration: none;
     color: gray;
