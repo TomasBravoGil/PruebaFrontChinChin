@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(223, 255, 244);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-inline: 150px;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  .navbar .logo{
+    width: auto;
+    height: 100px;
+  }
+
+  .navbar .menuList{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+  }
+
+  .navbar .menuItem{
+    border-radius: 15px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+  }
