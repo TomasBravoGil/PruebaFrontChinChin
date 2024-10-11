@@ -13,22 +13,12 @@ import {
   
   export const usersCollection = "users";
   
-  export async function createUser(data) {
-    const { uid, ...restData } = data;
+  export async function createUser(userId, data) {
   
-    if (uid) {
-      return setDoc(doc(db, usersCollection, uid), restData);
-    }
-  
-    return addDoc(collection(db, usersCollection), restData);
+      return setDoc(doc(db, usersCollection, userId), data);
+    
   }
-  
 
-  export async function getUserById(userId) {
-    const userRef = doc(db, usersCollection, userId);
-    return getDoc(userRef);
-  }
-  
   export async function getUserProfile(email) {
     const userQuery = query(
       collection(db, usersCollection),
