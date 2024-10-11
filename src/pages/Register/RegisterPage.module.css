@@ -48,6 +48,7 @@
     font-weight: 400;
     background-color: #fff;
     border: 1px solid #14C6A4;    
+    cursor: text;
   }
 
   .container .form .inputContainer ::placeholder {
@@ -64,6 +65,11 @@
     height: 50px;    
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .container .form .submit:hover{
+    background-color: #109e84;
   }
 
   .container .form .googleButton{

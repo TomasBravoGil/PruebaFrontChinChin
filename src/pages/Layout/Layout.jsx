@@ -1,6 +1,5 @@
 import React from 'react'
 import { Outlet } from 'react-router'
-import styles from './Layout.module.css';
 import { UserContextProvider } from '../../contexts/UserContext';
 import { Navbar } from '../../components/NavBar/NavBar';
 
@@ -9,7 +8,7 @@ export function Layout() {
     <UserContextProvider>
       <main>
         <Navbar />
-        <section className={styles.body}>
+        <section>
           <Outlet />
         </section>
       </main>

@@ -14,7 +14,7 @@ export function Navbar(){
         await  logout(() => navigate(homeUrl));
     };
 
-    console.log(user);
+    //console.log(user);
 
     return(
         <nav className={styles.navbar}>            

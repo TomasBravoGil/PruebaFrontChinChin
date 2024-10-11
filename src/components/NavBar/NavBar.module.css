@@ -45,4 +45,5 @@ body{
     background-color: rgba(240, 248, 255, 0);
     color: black;
     border: none;
+    cursor: pointer;
   }

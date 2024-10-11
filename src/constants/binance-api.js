@@ -1,0 +1,1 @@
+export const apiUrl = 'https://api.binance.com/api/v3/ticker/price';
